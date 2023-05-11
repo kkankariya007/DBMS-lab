@@ -50,7 +50,7 @@ async def des():
 
 @app.get("/10")
 async def des():
-    file_p="./EXPT10.md"
+    file_p="./Expt10.md"
     return FileResponse(file_p)
 
 @app.get("/11")
@@ -60,5 +60,5 @@ async def des():
 
 @app.get("/12")
 async def des():
-    file_p="./EXPT12.md"
+    file_p="./Expt12.md"
     return FileResponse(file_p)
